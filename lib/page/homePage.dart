@@ -3,7 +3,6 @@ import 'profilPage.dart';
 import 'package:schood_android/components/bottomNav.dart';
 
 class homePage extends StatefulWidget {
-  const homePage({super.key});
 
   @override
   State<homePage> createState() => _homeState();
@@ -13,7 +12,6 @@ class _homeState extends State<homePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNav(),
       body: Center(
         child: Container(
           decoration: BoxDecoration(
