@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'profilPage.dart';
-import 'package:schood_android/components/bottomNav.dart';
 
 class homePage extends StatefulWidget {
 
