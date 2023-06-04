@@ -1,0 +1,4 @@
+#Sun Jun 04 13:46:59 CEST 2023
+base.0=/home/pa/epitech/EIP/Schood-Android/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
