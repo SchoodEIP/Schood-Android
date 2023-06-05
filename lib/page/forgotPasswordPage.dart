@@ -29,7 +29,7 @@ class _forgotPasswordState extends State<forgotPasswordPage> {
       'email': loginController.text,
     };
     final postclass = Post_Class();
-    Response reponse = postclass.postData(context, data, '/user/forgottenPassword');
+    Response reponse = await postclass.postData(context, data, 'user/forgottenPassword');
     final body = jsonDecode(reponse.body);
     if (reponse.statusCode==200) {
       Navigator.push(context, MaterialPageRoute(builder: (context) {
